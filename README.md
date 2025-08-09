@@ -6,7 +6,7 @@ A simple and efficient Python package to load prompt files in YAML or TXT format
 
 ## Overview
 
-`PromptFileLoader` helps you easily load prompt files for your applications, supporting both:
+`PromptFileLoader` helps you easy to load prompt files for your applications, supporting both:
 
 - YAML files (`.yaml`, `.yml`) parsed into Python dictionaries or lists, and  
 - Plain text files (`.txt`) loaded as strings.
