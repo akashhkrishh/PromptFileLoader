@@ -12,7 +12,7 @@ class PromptLoader:
             base_dir = os.path.dirname(os.path.abspath(__file__))
 
             # Walk up directories to find project root (heuristic)
-            # If inside '.venv', move up until out of it
+            # If inside '.venv', move up until out of i
             while os.path.basename(base_dir) in ('.venv', 'venv'):
                 base_dir = os.path.dirname(base_dir)
 
