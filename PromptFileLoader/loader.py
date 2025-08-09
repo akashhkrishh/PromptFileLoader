@@ -4,7 +4,7 @@ from typing import Union
 
 
 class PromptLoader:
-    def __init__(self, prompts_dir: str = None):
+    def __init__(self, prompts_dir: str):
         if prompts_dir:
             self.prompts_dir = prompts_dir
         else:
