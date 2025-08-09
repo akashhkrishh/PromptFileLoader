@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="PromptFileLoader",
-    version="0.1.3",
+    version="1.0.0",
     author="Akashh Krishh",
     author_email="akashhkrishh@gmail.com",
     description="A simple prompt loader supporting YAML and TXT files with caching",
